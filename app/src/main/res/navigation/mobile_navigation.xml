@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/worldFragment">
+
+    <fragment
+        android:id="@+id/worldFragment"
+        android:name="com.example.news_app.fragments.WorldFragment"
+        android:label="fragment_world"
+        tools:layout="@layout/fragment_world" />
+    <fragment
+        android:id="@+id/africaFragment"
+        android:name="com.example.news_app.fragments.AfricaFragment"
+        android:label="fragment_africa"
+        tools:layout="@layout/fragment_africa" />
+    <fragment
+        android:id="@+id/asiaFragment"
+        android:name="com.example.news_app.fragments.AsiaFragment"
+        android:label="fragment_asia"
+        tools:layout="@layout/fragment_asia" />
+    <fragment
+        android:id="@+id/australiaFragment"
+        android:name="com.example.news_app.fragments.AustraliaFragment"
+        android:label="fragment_australia"
+        tools:layout="@layout/fragment_australia" />
+    <fragment
+        android:id="@+id/europeFragment"
+        android:name="com.example.news_app.fragments.EuropeFragment"
+        android:label="fragment_europe"
+        tools:layout="@layout/fragment_europe" />
+    <fragment
+        android:id="@+id/middleEastFragment"
+        android:name="com.buildweek.bbc.view.activities.ui.fragments.MiddleEastFragment"
+
+        android:label="fragment_middle_east"
+        tools:layout="@layout/fragment_middle_east" />
+    <fragment
+        android:id="@+id/latinAmericaFragment"
+        android:name="com.buildweek.bbc.view.activities.ui.fragments.LatinAmericaFragment"
+        android:label="fragment_latin_america"
+        tools:layout="@layout/fragment_latin_america" />
+    <fragment
+        android:id="@+id/ukFragment"
+        android:name="com.example.news_app.fragments.UkFragment"
+        android:label="fragment_uk"
+        tools:layout="@layout/fragment_uk" />
+
+    <fragment
+        android:id="@+id/paradisePapersFragment"
+        android:name="com.example.news_app.fragments.ParadisePapersFragment"
+        android:label="fragment_paradise_papers"
+        tools:layout="@layout/fragment_paradise_papers" />
+    <fragment
+        android:id="@+id/businessFragment"
+        android:name="com.buildweek.bbc.view.activities.ui.fragments.BusinessFragment"
+        android:label="fragment_business"
+        tools:layout="@layout/fragment_business" />
+    <fragment
+        android:id="@+id/techFragment"
+        android:name="com.example.news_app.fragments.TechFragment"
+        android:label="fragment_tech"
+        tools:layout="@layout/fragment_tech" />
+    <fragment
+        android:id="@+id/scienceFragment"
+        android:name="com.buildweek.bbc.view.activities.ui.fragments.ScienceFragment"
+        android:label="fragment_science"
+        tools:layout="@layout/fragment_science" />
+    <fragment
+        android:id="@+id/healthFragment"
+        android:name="com.buildweek.bbc.view.activities.ui.fragments.HealthFragment"
+        android:label="fragment_health"
+        tools:layout="@layout/fragment_health" />
+    <fragment
+        android:id="@+id/entertainmentFragment"
+        android:name="com.example.news_app.fragments.EntertainmentFragment"
+        android:label="fragment_entertainment"
+        tools:layout="@layout/fragment_entertainment" />
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="com.example.news_app.fragments.StoriesFragment"
+        android:label="fragment_stories"
+        tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/sportFragment"
+        android:name="com.example.news_app.fragments.SportFragment"
+        android:label="fragment_sport"
+        tools:layout="@layout/fragment_sport" />
+    <fragment
+        android:id="@+id/footballFragment"
+        android:name="com.buildweek.bbc.view.activities.ui.fragments.FootballFragment"
+        android:label="fragment_football"
+        tools:layout="@layout/fragment_football" />
+    <fragment
+        android:id="@+id/formula1Fragment"
+        android:name="com.example.news_app.fragments.Formula1Fragment"
+        android:label="fragment_formula1"
+        tools:layout="@layout/fragment_formula1" />
+    <fragment
+        android:id="@+id/cricketFragment"
+        android:name="com.example.news_app.fragments.CricketFragment"
+        android:label="fragment_cricket"
+        tools:layout="@layout/fragment_cricket" />
+    <fragment
+        android:id="@+id/rugbyUnionFragment"
+        android:name="com.example.news_app.fragments.RugbyUnionFragment"
+        android:label="fragment_rugby_union"
+        tools:layout="@layout/fragment_rugby_union" />
+    <fragment
+        android:id="@+id/tennisFragment"
+        android:name="com.example.news_app.fragments.TennisFragment"
+        android:label="fragment_tennis"
+        tools:layout="@layout/fragment_tennis" />
+    <fragment
+        android:id="@+id/golfFragment"
+        android:name="com.example.news_app.fragments.GolfFragment"
+        android:label="fragment_golf"
+        tools:layout="@layout/fragment_golf" />
+    <fragment
+        android:id="@+id/atheleticsFragment"
+        android:name="com.example.news_app.fragments.AtheleticsFragment"
+        android:label="fragment_atheletics"
+        tools:layout="@layout/fragment_atheletics" />
+    <fragment
+        android:id="@+id/cyclingFragment"
+        android:name="com.example.news_app.fragments.CyclingFragment"
+        android:label="fragment_cycling"
+        tools:layout="@layout/fragment_cycling" />
+    <fragment
+        android:id="@+id/usCanadaFragment"
+        android:name="com.example.news_app.fragments.UsCanadaFragment"
+        android:label="fragment_us_canada"
+        tools:layout="@layout/fragment_us_canada" />
+</navigation>

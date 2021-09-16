@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/worldFragment"
+            android:title="World"/>
+
+        <item
+            android:id="@+id/africaFragment"
+            android:title="Africa"/>
+
+        <item
+            android:id="@+id/asiaFragment"
+            android:title="Asia"/>
+        <item
+            android:id="@+id/australiaFragment"
+            android:title="Australia"/>
+        <item
+            android:id="@+id/europeFragment"
+            android:title="Europe"/>
+        <item
+            android:id="@+id/middleEastFragment"
+            android:title="MiddleEast"/>
+        <item
+            android:id="@+id/latinAmericaFragment"
+            android:title="Latin Amaerica"/>
+        <item
+            android:id="@+id/ukFragment"
+            android:title="UK"/>
+        <item
+            android:id="@+id/usCanadaFragment"
+            android:title="US  CANADA"/>
+
+        <item
+            android:id="@+id/paradisePapersFragment"
+            android:title="ParadisePapers"/>
+
+        <item
+            android:id="@+id/businessFragment"
+            android:title="Business"/>
+        <item
+            android:id="@+id/techFragment"
+            android:title="Tech"/>
+        <item
+            android:id="@+id/scienceFragment"
+            android:title="Science"/>
+        <item
+            android:id="@+id/healthFragment"
+            android:title="Health"/>
+        <item
+            android:id="@+id/entertainmentFragment"
+            android:title="Entertainment"/>
+        <item
+            android:id="@+id/storiesFragment"
+            android:title="Stories"/>
+        <item
+            android:id="@+id/sportFragment"
+            android:title="Sport"/>
+        <item
+            android:id="@+id/footballFragment"
+            android:title="Football"/>
+        <item
+            android:id="@+id/formula1Fragment"
+            android:title="Formula1"/>
+        <item
+            android:id="@+id/cricketFragment"
+            android:title="Cricket"/>
+        <item
+            android:id="@+id/rugbyUnionFragment"
+            android:title="Rugby Union"/>
+        <item
+            android:id="@+id/tennisFragment"
+            android:title="Tennis"/>
+        <item
+            android:id="@+id/golfFragment"
+            android:title="Golf"/>
+        <item
+            android:id="@+id/atheleticsFragment"
+            android:title="Athletics"/>
+        <item
+            android:id="@+id/cyclingFragment"
+            android:title="Cycling"/>
+    </group>
+</menu>

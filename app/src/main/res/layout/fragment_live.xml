@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.activities.ui.fragments.LiveFragment">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtubePlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_10"
+        app:videoId="XWq5kBlakcQ"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:enableLiveVideoUi="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BBC World Service"
+        android:layout_margin="@dimen/dp_10"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BBC World Service"
+        android:textSize="@dimen/sp_30"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/dp_10"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 May 2015"
+        android:layout_margin="@dimen/dp_10"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="International news, analysis and features
+from the BBC World Service - bringing you expertise and
+insight from our global network of correspondents"
+        android:layout_margin="@dimen/sp_15"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
