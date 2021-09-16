@@ -1,4 +1,3 @@
-# BBC
 <h1 align="center">BBC NEWS</h1>
 <p align="center">  
 A news app that brings to users the latest news, analysis, videos, news
